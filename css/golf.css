@@ -207,6 +207,9 @@ body {
 #content .tBlock h2 {
     color: #f5d301;
     font-size: 28px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-bottom:1px solid #94c08c\0; /*for ie8*/
+    *border-bottom:1px solid #94c08c; /*for ie7*/
 }
 #content .invest {
     padding-left: 465px;
@@ -215,7 +218,6 @@ body {
 }
 #content .invest h2 {
     color: #fff;
-    border-bottom: 1px solid #fff;
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
@@ -289,10 +291,9 @@ body {
 }
 #content .ctbox .tBlock h2 {
     font-size: 28px;
-    border-bottom: 1px solid #fff;
     padding-bottom: 8px;
     margin-bottom: 12px;
-    font-family: "SimSun", Arial, Helvetica, sans-serif;
+    font-family: "SimSun";
 }
 #content .ctbox .health {
     float: left;
